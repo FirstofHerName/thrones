@@ -1,0 +1,2 @@
+class Throne < ApplicationRecord
+end

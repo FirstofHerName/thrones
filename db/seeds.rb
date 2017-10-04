@@ -1,4 +1,21 @@
 
-Throne.create(character: 'Jon Snow' house: 'nights watch')
-Throne.create(character: 'Denarys' house: 'targaryen')
+throne = Throne.new(
+                        character: "Jon Snow",
+                        house: "nights watch",
+                        )
+throne.save
+
+throne = Throne.new(
+                        character: "Denarys",
+                        house: "Targaryen",
+                        )
+throne.save
+
+throne = Throne.new(
+                        character: "Tyrion",
+                        house: "Lannister",
+                        )
+throne.save
+
+
 
